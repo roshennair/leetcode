@@ -1,7 +1,9 @@
 # Question: 12. Integer to Roman
 # Link: https://leetcode.com/problems/integer-to-roman/
 # Date: 21/3/2022
-# Strategy:
+# Strategy: Create dictionary for value to symbol conversion, loop through each value in dictionary and divide num until 0, updating numeral string
+# Time complexity: O(1)
+# Space complexity: O(1)
 
 class Solution:
     def intToRoman(self, num: int) -> str:
